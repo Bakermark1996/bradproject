@@ -3,6 +3,19 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+nav {
+    text-align: center;
+    align-self: auto;
+}
+
+button {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #e63946;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 header {
     text-align: center;
 }
