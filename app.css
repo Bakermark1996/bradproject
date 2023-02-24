@@ -10,10 +10,19 @@ nav {
 
 button {
     margin: 0 2em;
+    background: none;
     background-color: #e63946;
+    border: 2px solid;
     border-radius: 1em;
+    transition: all 0.25s;
+}
+button:hover {
+    background-color: #ef233c;
+    color: #fcf6bd;
+    box-shadow: 0 0.5em 0.5em -0.4em #ef233c;
     cursor: pointer;
 }
+
 
 header {
     text-align: center;
